@@ -20,9 +20,11 @@
 /* Main Program */
 int main(int argc, char *argv[])
 {
-    struct Tsunami tsunamiCalcs[MAXELS];
     Usage(argv);
-    ReadFile(argv[2], tsunamiCalcs);
+	printf(" Test 1\n");
+    struct Tsunami tsunamiCalcs[MAXELS];
+	printf(" Test 2\n");
+    ReadFile(argv[1], tsunamiCalcs);
 	return 0;
 }
 

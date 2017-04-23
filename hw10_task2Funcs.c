@@ -32,7 +32,7 @@ void Usage(char **info)
    char string1[MAXELS] = "--help";
     int n;
     //Check to see if input parameter is help
-    n = strcmp(string1, info[2]);
+    n = strcmp(string1, info[1]);
     if(n == 0)
     {
         printf("Usage: ./corn_bread_mafia_hw10_task2 ./corn_bread_mafia_hw10_task2Funcs  waves.txt");
@@ -65,7 +65,7 @@ void ReadFile(char *fName, struct Tsunami tsunamiData[MAXELS])
 {
     FILE *tsunami;
     struct Tsunami input[MAXELS];
-    double total;
+//    double total;
     tsunami = fopen(fName, "r");
     //Check to see if file is opened
     if (tsunami == NULL)
