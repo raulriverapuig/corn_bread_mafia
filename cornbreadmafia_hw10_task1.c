@@ -17,7 +17,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "house.h" // Rename this to your name name_hw#_task#.h
+#include "cornbreadmafia_hw10_task1.h" // Rename this to your name name_hw#_task#.h
 
 
 /* Main Program */
