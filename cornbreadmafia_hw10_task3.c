@@ -1,34 +1,26 @@
 /*
  * =====================================================================================
  *
- *       Filename:  hw10_task2.c
- *       	Usage:  ./hw10_task2.c
- *    Description:  Categorize Tsunamis
- *
+ *       Filename:  hw10_task3.c
+ *       	Usage:  ./hw10_task3.c
+ *    Description:  Decode mp3 files
+
  *        Version:  1.0
- *        Created:  04/18/2017 02:59:32 PM
+ *        Created:  04/18/2017 02:59:45 PM
  *       Compiler:  gcc -Wall -Werror
  *         Author:  Julie Collings (), juliecollings@mail.weber.edu
  * =====================================================================================
  */
 #include <stdio.h>		/* For Standard I/O */
 #include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
-#include "hw10_task2.h"
+#include "cornbreadmafia_hw10_task3.h"
 
 /* Main Program */
 int main(int argc, char *argv[])
 {
+    unsigned int num [MAXELS];
     Usage(argv);
-	printf(" Test 1\n");
-    struct Tsunami tsunamiCalcs[MAXELS];
-	printf(" Test 2\n");
-    ReadFile(argv[1], tsunamiCalcs);
+    ReadFile(argv[1], num);
 	return 0;
 }
-
-
-/* Function Definitions */
-
 

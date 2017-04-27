@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  hw10_task2.h
+ *       Filename:  hw10_task3.h
  *
- *    Description:  Header for Tsunamis files
+ *    Description:  Header for mp3 decoder
  *
  *        Version:  1.0
- *        Created:  04/23/2017 08:47:55 AM
+ *        Created:  04/23/2017 12:50:51 PM
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -18,13 +18,6 @@
 //Constants
 #define MAXELS 81
 
-struct Tsunami
-{
-    int mo, day, yr, fatalities;
-    double max_height;
-    char location[20];
-};
-//Function Prototypes
+//Prototypes
 void Usage(char **info);
-void ReadFile(char *fName, struct Tsunami tsunamiData[MAXELS]);
-
+void ReadFile(char *fName, unsigned int num[]);
